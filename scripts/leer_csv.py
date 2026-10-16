@@ -7,7 +7,7 @@
 # TODO 3: imprime las primeras filas para revisar las columnas
 
 import pandas as pd
-ventas = pd.read_csv("/content/data/ventas.csv")
+ventas = pd.read_csv("data/ventas.csv")
 print(ventas.head())
 
 #imprimir las dimensiones
