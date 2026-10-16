@@ -7,7 +7,7 @@
 # TODO 3: imprime las dimensiones y las primeras filas
 
 import pandas as pd
-ventas = pd.read_excel("/content/data/ventas.xlsx", sheet_name = "ventas" )
+ventas = pd.read_excel("data/ventas.xlsx", sheet_name = "ventas" )
 print(ventas.head())
 print(ventas.shape)
 print(ventas.dtypes)
