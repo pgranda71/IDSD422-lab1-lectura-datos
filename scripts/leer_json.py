@@ -11,7 +11,7 @@
 import json
 import pandas as pd
 
-with open("/content/data/ventas.json", encoding = "utf-8") as f:
+with open("data/ventas.json", encoding = "utf-8") as f:
   datos=json.load(f)
 
 ventas= pd.json_normalize(datos)
