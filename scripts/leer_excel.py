@@ -5,3 +5,11 @@
 # TODO 1: importa pandas
 # TODO 2: carga data/ventas.xlsx indicando la hoja correcta
 # TODO 3: imprime las dimensiones y las primeras filas
+
+import pandas as pd
+ventas = pd.read_excel("/content/data/ventas.xlsx", sheet_name = "ventas" )
+print(ventas.head())
+print(ventas.shape)
+print(ventas.dtypes)
+
+
